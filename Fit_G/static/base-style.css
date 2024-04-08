@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation-bar {
+  display: flex;
+  z-index: 1;
+  width: 100%;
+  height: 5em;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.509);
+}
+
+.nav-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  /* justify-content: center; */
+  opacity: 100%;
+}
+
+ul {
+  display: flex;
+  opacity: 100%;
+
+}
+
+li {
+  display: flex;
+  margin-left: 2em;
+}
+
+li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: large;
+}
+
+.logo {
+  width: 5em;
+  height: 5em;
+}
+
+.login-c {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 40px;
+}
+.login-c img{
+  width: 3em;
+  height: 3em;
+  
+}
+.login-c button{
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  color: aliceblue;
+  background-color: green;
+  border-color: rgba(8, 193, 8, 0.768);
+  border-radius: 5px;
+}
+#login{
+display: flex;
+border-style: solid;
+border-width: 2px ;
+border-color: rgb(92, 149, 8);
+  background-color: rgba(24, 232, 94, 0.565);
+  padding: 10px;
+  text-decoration: none;
+  margin: 0;
+  border-radius: 8px;
+  align-items: center;
+}
+
+
+/* .sticky {
+    position: fixed;
+  } */

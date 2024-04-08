@@ -1,0 +1,47 @@
+/* for contact page */
+
+body {
+  background-color: white;
+}
+
+.fa {
+
+  font-size: 20px;
+  border-radius: 28%;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 8px;
+  margin: 2px 2px;
+  box-shadow: 1px 1px 7px rgb(255, 252, 252);
+
+}
+
+.fa:hover {
+  opacity: 0.6;
+  scale: 1.1;
+}
+
+.fa-facebook {
+  background-color: blue;
+  min-width: 15px;
+}
+
+.fa-instagram {
+  background-color: rgb(255, 101, 126);
+}
+
+.fa-contact {
+  color: rgb(0, 0, 0);
+}
+
+.fa-phone {
+  text-decoration: none;
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+  color: black;
+  box-shadow: none;
+  align-items: end;
+  justify-content: flex-end;
+  text-shadow: 4px 4px 8px white;
+}

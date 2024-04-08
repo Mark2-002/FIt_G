@@ -1,0 +1,40 @@
+ #ind-h1 {
+        margin-top: 5em;
+        margin-left: 1.3em;
+        font-size: 60px;
+        color: rgb(27, 208, 48);
+        position: absolute;
+        text-shadow: 5px 5px 12px black;
+        user-select: none;
+        /* animation-fill-mode: both; */
+        animation-name: anim;
+        animation-duration: 1s ;
+        animation-timing-function: ease-out;
+    }
+
+    @keyframes anim {
+        from {
+            margin-top: 3em;
+            opacity: 25%;
+        }
+
+        to {
+            margin-top: 5em;
+            opacity: 100%;
+        }
+    }
+
+    #div-bg {
+        display: flex;
+        position: absolute;
+        user-select: none;
+        -webkit-user-drag: none;
+
+    }
+
+    #bg {
+        height: 100dvh;
+        width: 100dvw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
